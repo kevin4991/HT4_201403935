@@ -33,7 +33,7 @@ public class ControlC3D {
      * @return La siguiente etiqueta (L$#)
      */
     public static String generaETQ(){
-        return "L$"+etq++;
+        return "L"+etq++;
     }
     
     /**

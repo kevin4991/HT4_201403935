@@ -7,24 +7,24 @@ package org.compi2.codigo3d.parser;
  * @author esvux
  */
 public class NodoC3D {
-    private String cad, ev, ef, es;
+    private String cad, ETV, ETF, ETST;
     
 
     public NodoC3D(String cad) {
         this.cad = cad;
     }
     
-    public NodoC3D(String cad, String ev, String ef) {
+    public NodoC3D(String cad, String ETV , String ETF) {
         this.cad = cad;
-        this.ev = ev;
-        this.ef = ef;
+        this.ETV = ETV;
+        this.ETF = ETF;
     }
     
-    public NodoC3D(String cad, String ev, String ef, String es) {
+    public NodoC3D(String cad, String ETV, String ETF, String ETST) {
         this.cad = cad;
-        this.ev = ev;
-        this.ef = ef;
-        this.es = es;
+        this.ETV = ETV;
+        this.ETF = ETF;
+        this.ETST = ETST;
     }
     
     public String getCad(){
@@ -32,15 +32,15 @@ public class NodoC3D {
     }
     
     public String getEV(){
-        return ev;
+        return ETV;
     }
     
     public String getEF(){
-        return ef;
+        return ETF;
     }
     
     public String getES(){
-        return es;
+        return ETST;
     }
         
 }
